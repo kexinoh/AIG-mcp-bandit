@@ -1,0 +1,10 @@
+---
+# .bandit 配置文件
+plugins:
+  - ./bandit_rules
+
+targets:
+  - "*.py"
+
+skips:
+  - B101
